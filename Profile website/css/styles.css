@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: #444444;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;    
+}
+
+li{
+    width: 150px;
+    color: aliceblue;
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#nav #logo{
+    color: aliceblue;
+    width: 500px;
+    float: left;
+}
+
+#nav #navi{
+    width: 800px;
+    float: right;
+}
+
+#navi>ul{
+    list-style: none;
+}
+
+.content{    
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Chathura', sans-serif;
+    font-size: 50px;
+    z-index: 2;
+}
+
+.img{
+    width: auto; 
+    height: 1080px;
+    z-index: 1;
+    background:  no-repeat center center fixed;
+}
+
+#image1{
+    background-image: url(../images/bracket.jpg); 
+    background-size: cover;
+}
+
+#image2{
+    background-image: url(../images/awake.jpg);
+    background-size: cover;
+}
+
+#image3{
+    background-image: url(../images/future.jpg);
+    background-size: cover;
+}
+
+#footer{
+    height: 400px;
+    background-color: black;
+}
