@@ -1,43 +1,64 @@
-body{
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
     margin: 0px;
 }
 
-#nav{
-    height: 70px;
-    width: 100%;
-    position: fixed;
-    background-color: #444444;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;    
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -50px; 
+  height: 50px; 
+  visibility: hidden; 
 }
 
-li{
-    width: 150px;
+/*Nav bar styling*/
+
+#nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #000;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+h3 {
+    margin-top: 13px;
+}
+
+li {
+    width: 100px;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 15px;
     float: left;
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
 }
 
-#nav #logo{
+#nav #logo {
     color: aliceblue;
-    width: 500px;
+    width: 300px;
     float: left;
+    padding-left: 10px;
 }
 
-#nav #navi{
-    width: 800px;
+#nav #navi {
+    width: 550px;
     float: right;
 }
 
-#navi>ul{
+#navi>ul {
     list-style: none;
 }
 
-.content{    
+/*Nav bar styling ends*/
+
+.content {
     width: 80%;
     margin-left: 10%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -46,29 +67,33 @@ li{
     z-index: 2;
 }
 
-.img{
-    width: auto; 
+.img {
+    width: auto;
     height: 1080px;
     z-index: 1;
-    background:  no-repeat center center fixed;
+    //position: absolute;
+    background: no-repeat center center fixed;
 }
 
-#image1{
-    background-image: url(../images/bracket.jpg); 
+#home {
+    background-image: url(../images/bracket.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
-#image2{
+#image2 {
     background-image: url(../images/awake.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
-#image3{
+#image3 {
     background-image: url(../images/future.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
-#footer{
+#footer {
     height: 400px;
     background-color: black;
 }
