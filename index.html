@@ -1,90 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Welcome</title>
-    
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Chathura:700|Yanone+Kaffeesatz:700" rel="stylesheet">
+    <title>Welcome to Venkat's website</title>
+    <!--    Latest compiled and minified Bootstrap CSS     -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Monoton" rel="stylesheet">
 </head>
-
 <body>
-
-    <!-- Navigation -->
-    <div id="nav">
-        <div id="logo">
-            <h3>Venkat Polumahanti</h3>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top text-uppercase">
+            <div class="container-fluid navi">
+               
+                   <ul class="nav navbar-nav">
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#xp">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+                <div class="navbar-header">
+                    <a class="navbar-brand text-uppercase text" href="#">V</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+              
+                
+            </div>
+        </nav>
+    </header>
+    
+    
+    <section class="bg">
+    </section>
+    <div class="home">
+        <div class="text-center over">
+            <p>I'm </br> Venkat Polumahanti</p>
         </div>
-        <div id="navi">
-            <ul>
-                <li><a href="#home">About me</a></li> 
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#workex">Work Ex</a></li>
-                <li><a href="#education">Education</a></li>
-            </ul>
+    </div>
+    <section class="secs xp" id="xp">
+        <div class="container main">
+            <p>I have worked for nearly 3 years</p>
         </div>
-    </div>
-    <!-- Navigation ends -->
-
-    <!-- First image -->
-    <div id="home" class="img">
-<!--
-        <div id="imgtxt">
-            <h1>Welcome to my website</h1>
-            <h2>I'm Venkat Polumahanti. I'm a Web developer with a Master's Degree in Information Systems</h2>
+    </section>    
+    <section class="secs skills parallax" id="skills">
+        <div class="container main">
+            <p>I have many web development and design skills</p>
+        </div>                    
+    </section>   
+    <section class="secs edu" id="edu">
+        <div class="container main">
+            <p>I have worked for nearly 3 years</p>
         </div>
--->
-    </div>
-
-    <!-- First content -->
-    <div id="skills" class="content">
-        <p>
-            Sed aliquam est sodales, laoreet ex ac, congue libero. Donec pellentesque sed ligula tempor lobortis. Suspendisse potenti. In bibendum elementum nisl, vitae accumsan lectus semper a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis lectus nisi, venenatis ut nulla in, egestas eleifend turpis. Praesent pellentesque ac justo dignissim elementum. Aenean scelerisque lacinia fringilla. In hac habitasse platea dictumst. Sed facilisis ante ac facilisis posuere.
-        </p>
-        <p>
-            Quisque vel lectus gravida, consequat risus et, efficitur lectus. Ut posuere felis eros, non facilisis elit imperdiet id. Fusce finibus, libero eu vulputate sollicitudin, eros risus congue dui, ac ullamcorper felis sapien sit amet nunc. Cras sit amet pellentesque mi, quis elementum lectus. Duis risus sem, tincidunt pellentesque commodo in, egestas vitae erat. Praesent venenatis bibendum orci nec sagittis. Sed nunc est, elementum sit amet suscipit lobortis, congue nec odio. Phasellus condimentum rutrum egestas. Sed tortor lacus, volutpat ut tincidunt in, ultricies id massa. Vestibulum purus lorem, pulvinar in lacinia vitae, molestie at tellus. Donec vel sollicitudin turpis. Duis egestas ut nisl eu convallis. Donec nec tempus eros. Donec vitae tortor at odio molestie aliquam eget at purus. Nam in nisi ante. Mauris volutpat sed quam eget tristique.
-       </p>
-    </div>
-
-    <!-- Second image -->
-    <div id="image2" class="img"></div>
-
-    <!-- Second content -->
-    <div id="workex" class="content">
-       <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum, eros eu interdum fermentum, dolor erat commodo arcu, ac malesuada lorem quam auctor justo. Etiam a euismod mauris. Duis porttitor metus ut tempus vestibulum. Morbi ac dolor magna. Sed accumsan nulla nec laoreet vestibulum. Donec justo risus, venenatis sed imperdiet nec, vehicula vestibulum ante. Nulla odio enim, lacinia at magna sit amet, convallis bibendum felis. Fusce lectus mi, pulvinar in purus eget, tincidunt mollis lorem. Fusce eget faucibus tellus. Suspendisse ut egestas tortor, vel pellentesque turpis. Ut hendrerit ante velit, vitae convallis nibh tempor eu. Ut id ipsum lorem. Etiam fermentum eget enim nec luctus.
-        </p>
-        <p>
-            Quisque eu arcu gravida, fermentum sem ac, scelerisque ligula. In tellus tellus, bibendum eget lorem non, vulputate pellentesque sapien. Pellentesque lectus nibh, egestas in elit id, aliquam semper enim. Cras in sapien enim. Integer nisl odio, rutrum vel sollicitudin vel, rhoncus ac nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean suscipit justo purus, aliquet consectetur metus auctor vel. Fusce ac convallis urna, in fringilla sem. Nunc vehicula odio elit, sed vulputate risus tincidunt nec. Pellentesque laoreet libero tincidunt, lacinia magna ac, sollicitudin turpis. Mauris porta purus vel mi placerat rutrum. Vivamus erat augue, sagittis id pretium vitae, tempor a velit. Sed lobortis quam id tempor mattis. Nunc et nibh quis augue volutpat tincidunt non euismod enim. Integer ultrices ultrices sapien, a porta neque hendrerit quis. Curabitur rutrum arcu vitae malesuada pretium.
-       </p>
-    </div>
-
-    <!-- Third image -->
-    <div id="image3" class="img"></div>
-
-    <!--Third content -->
-    <div id="education" class="content">
-        <p>
-            Fusce varius turpis at ullamcorper cursus. Sed tempus, leo sed varius feugiat, erat urna vehicula augue, ut aliquet justo dolor viverra magna. Integer semper enim at felis euismod, in scelerisque tellus interdum. Mauris sit amet auctor ante. Donec luctus velit ac arcu dignissim posuere. Maecenas tincidunt leo vitae felis pharetra fermentum. Maecenas quis quam mauris. Praesent a venenatis neque, in pellentesque eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in porttitor est, non consequat diam. Aenean dictum eget ipsum at pharetra.
-        </p>
-        <p>
-            Nam tellus nulla, semper non viverra a, accumsan vel eros. Cras placerat efficitur eros, eget vehicula nunc congue in. Integer quis laoreet arcu. Ut ultricies dolor in erat malesuada, vitae aliquet dui vehicula. Aenean dapibus nibh non vehicula sollicitudin. Curabitur interdum et enim quis viverra. Phasellus faucibus dolor vel magna dignissim, ut pharetra dui dictum. Vivamus ultrices fringilla nunc eu luctus. Vestibulum laoreet tortor eget turpis viverra, nec ullamcorper magna facilisis. Mauris hendrerit, sapien a volutpat scelerisque, ante erat fringilla augue, sed faucibus libero est quis velit. Donec congue, nibh eu vestibulum ultricies, velit purus ultricies tortor, et posuere tellus purus et elit. Morbi a elementum lacus. Nullam quam neque, posuere facilisis ipsum nec, cursus placerat sem. Maecenas iaculis odio risus, at feugiat eros semper eu.
-        </p>
-    </div>
-
-    <div id="footer">
+    </section>    
+    <section class="secs projects" id="projects">
+    <div class="container main">
+        <p>I have many web development and design skills</p>
+    </div>                    
+    </section>   
+    <section class="secs contact" id="contact">
+        <div class="panel panel-warning">
+            <div class="panel-heading text-center">
+                <h4>Message me using the below form</h4>
+            </div>
+            <div class="panel-content">
+                <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Full Name">
+                </div>          
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your email ID">
+                </div>
+                <div class="form-group">
+                    <label for="url">URL</label>
+                    <input type="url" class="form-control" id="url" placeholder="Your URL">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea rows="5" class="form-control "id="message" placeholder="Type in your message for me"></textarea>
+                </div>
+                <div class="form-group">
+                            <div class="col-xs-6">
+                                <button type="submit" class="btn btn-block btn-warning">Submit</button>
+                            </div>
+                            <div class="col-xs-6">
+                            <button type="reset" class="btn btn-block btn-default">Reset</button>
+                            </div>
+            </form>       
+            </div>
+            
+        </div>
+    </section>   
+    
+    
+    <footer>
         
-    </div>
-
+    </footer>
 </body>
-
 </html>
