@@ -1,99 +1,155 @@
-html {
+html, body{
     height: 100%;
 }
 
-body {
-    height: 100%;
+form{
+    width: 85%;
+    font-family: "titillium web", sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+.panel-heading{
+/*    font-size: 1.2em;*/
+}
+
+.panel{
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top: 60px;;
+}
+
+.panel-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.btn-block{
+    font-size: 1.1em;
+}
+
+/*Navbar*/
+.navbar-inverse{
+    border-radius: 0;   
+    display: flex;     
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0px;
     margin: 0px;
 }
 
-*[id]:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -50px; 
-  height: 50px; 
-  visibility: hidden; 
+.navbar-inverse .navbar-nav>li>a {
+    color: #e0e0e0;
 }
 
-/*Nav bar styling*/
-
-#nav {
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    background-color: #000;
-    z-index: 100;
-    top: 0;
-    left: 0;
+.navi{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "titillium web", sans-serif;
 }
 
-h3 {
-    margin-top: 13px;
+.navbar-inverse .navbar-brand {
+    color: rgba(255, 193, 7, 0.5);
+    font-size: 3em;
+    font-family: "Monoton",cursive;
 }
 
-li {
-    width: 100px;
-    color: aliceblue;
-    font-size: 15px;
-    float: left;
-    margin-top: 15px;
+.navbar-nav{
+    font-size: 1.1em;
+}
+
+.navbar-header a{
+    font-size: 1.9em;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-top: 2px dashed;
+    border-radius: 13px;
+    border-bottom: 2px dashed;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    border-radius: 25px;
+    background-color: rgba(255, 193, 7, 0.75);
+    color: black;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: rgba(255, 193, 7, 1);
+    border-top: 2px dashed ;
+    border-bottom: 2px dashed ;
+}
+
+p{
+    font-family: "titillium web",sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    max-width: 500px;
     text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    min-height: 300px;
 }
 
-#nav #logo {
-    color: aliceblue;
-    width: 300px;
-    float: left;
-    padding-left: 10px;
+.xp, .edu, .contact{
+    background-color: rgba(238, 238, 238, 0.25);
 }
 
-#nav #navi {
-    width: 550px;
-    float: right;
+.skills, .projects{
+    background-color: #ffffff;
 }
 
-#navi>ul {
-    list-style: none;
+.secs{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    padding-top: 60px;*/
 }
 
-/*Nav bar styling ends*/
+.bg{
+    background: url(../images/design1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
 
-.content {
-    width: 80%;
-    margin-left: 10%;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-family: 'Chathura', sans-serif;
-    font-size: 50px;
+.home{
+    background: rgba(1,1,1,0.7);
+    height: 100%;
+    position: absolute;
+    top: 60px;
     z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
 }
 
-.img {
-    width: auto;
-    height: 1080px;
-    z-index: 1;
-    //position: absolute;
-    background: no-repeat center center fixed;
+.over{
+    font-size: 1.4em;
+    color: white;
+    top: -60px;
 }
 
-#home {
-    background-image: url(../images/bracket.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#image2 {
-    background-image: url(../images/awake.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#image3 {
-    background-image: url(../images/future.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#footer {
-    height: 400px;
-    background-color: black;
+footer{
+    border-top: 15px solid #e0e0e0;
+    min-height: 200px;
+    background-color: #222222;
 }
