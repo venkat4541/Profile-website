@@ -1,33 +1,14 @@
 html, body{
     height: 100%;
-}
-
-form{
-    width: 85%;
     font-family: "titillium web", sans-serif;
-    font-size: 1.2em;
-    padding-bottom: 20px;
+    font-size: 0.9em;;
 }
 
-.panel-heading{
-/*    font-size: 1.2em;*/
+p{
+    font-family: "titillium web",sans-serif;
 }
 
-.panel{
-    width: 50%;
-    margin-bottom: 40px;
-    margin-top: 60px;;
-}
 
-.panel-content{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-.btn-block{
-    font-size: 1.1em;
-}
 
 /*Navbar*/
 .navbar-inverse{
@@ -36,6 +17,7 @@ form{
     background-color: rgba(0, 0, 0, 0.7);
     border: 0px;
     margin: 0px;
+    font-size: 1.2em;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -89,36 +71,25 @@ form{
     border-bottom: 2px dashed ;
 }
 
-p{
-    font-family: "titillium web",sans-serif;
-}
-
 .main{
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    max-width: 500px;
-    text-align: center;
+    padding: 50px 0px 50px 0px;
     letter-spacing: 1px;
     font-size: 1.4em;
     min-height: 300px;
 }
 
-.xp, .edu, .contact{
-    background-color: rgba(238, 238, 238, 0.25);
-}
-
 .skills, .projects{
     background-color: #ffffff;
-}
+    padding-top: 0px;
+} 
 
 .secs{
     min-height: 500px;
-    display: flex;
     justify-content: center;
     align-items: center;
-/*    padding-top: 60px;*/
+    padding-top: 30px;
 }
 
 .bg{
@@ -134,18 +105,77 @@ p{
     background: rgba(1,1,1,0.7);
     height: 100%;
     position: absolute;
-    top: 60px;
+    top: 0px;
     z-index: 2;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
 .over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.4em;
     color: white;
-    top: -60px;
+}
+
+#xp{
+    background: url(../images/design7.jpg);
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.xp{
+    border-top: 5px solid rgba(255, 255, 255, 0.24);
+    color: #e6e6e6;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+    padding-left: 5%;
+    font-size: 0.9em;
+}
+
+.resume-head, .resume-foot{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #e6e6e6;
+}
+
+.resume-foot{
+    border-radius: 0px;
+}
+
+form{
+    width: 85%;
+    font-family: "titillium web", sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+
+.panel{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.panel-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contact{
+    margin-bottom: 30px;
+}
+
+.btn-block{
+    font-size: 1.1em;
 }
 
 footer{

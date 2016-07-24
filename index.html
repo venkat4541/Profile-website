@@ -4,7 +4,7 @@
     <title>Welcome to Venkat's website</title>
     <!--    Latest compiled and minified Bootstrap CSS     -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Monoton" rel="stylesheet">
 </head>
 <body>
@@ -35,16 +35,63 @@
     <section class="bg">
     </section>
     <div class="home">
-        <div class="text-center over">
+        <div class="container text-center over">
             <p>I'm </br> Venkat Polumahanti</p>
         </div>
     </div>
-    <section class="secs xp" id="xp">
-        <div class="container main">
-            <p>I have worked for nearly 3 years</p>
+    <section class="secs" id="xp">
+        <div class="container main text-justify">
+            <div class="resume-head text-center text-uppercase">
+                <h2>Work Experience</h2>
+            </div>    
+            <div class="xp1 xp">
+                <h3>Graduate Assistant, 	August 2015 – May 2016</h3>
+                <h4>George Mason University, Fairfax, VA</h4>
+                <ul>
+                    <li>Assist in developing web applications using HTML, CSS and JavaScript in Adobe Dreamweaver environment.</li>
+                    <li>Demonstrate Graphic Design skills and techniques to instill an eye for creative design in amateur designers. </li>
+                    <li>Instructor for IT213 course covering web development and graphic design using Adobe Creative Suite apps. </li>
+                </ul>
+            </div>
+            <div class="xp2 xp">
+                <h3>Programmer Analyst,  	November 2012  June 2014</h3>
+                <h4>Cognizant, Hyderabad, India</h4>
+                <ul>
+                    <li>Worked as a web and UI developer for the client Northern Trust Bank, Chicago, IL.</li>
+                    <li>Certified by Cognizant in Banking and Financial Systems and have an introduction into Wealth Management.</li>
+                    <li>Developed responsive web portals using WordPress & Bootstrap grid layout.</li>
+                    <li>Developed business applications using web technologies like HTML5 and CSS3, based on the W3C standards.</li>
+                    <li>Used jQuery UI elements like Accordion, Tabs and jQuery mobile attributes to create mobile-friendly pages. </li>
+                    <li>Worked on customizing jQuery widgets and plugins like date picker, scrollbars, carousal. </li>
+                    <li>Planned and implemented web interface for an outdated front-end of a system using WordPress.</li>
+                    <li>Trained and worked on Mainframes (JCL, COBOL) and SQL. </li>
+                    <li>Used Web based GIT repository manager with issue tracking in GitLab.</li>
+                    <li>Utilized pair programming approach to ensure high quality code.</li>
+                </ul>
+            </div>
+            <div class="xp3 xp">
+                <h3>Co-Founder & Design Lead,  	February 2011 – October 2012</h3>
+                <h4>Careerfreak.com & Technocreed.com</h4>
+                <ul>
+                    <li>Designed banners & logos for the blogs, discussion boards and other portals in Photoshop</li>
+                    <li>Customized WordPress themes & plugins using HTML, CSS, PHP. </li>
+                    <li>Strategized and implemented plan for online portals to achieve maximum exposure with Google Analytics.</li>
+                    <li>Achieved a million views in less than a year and ROI of 3500% from Google AdSense with no-profit motto.</li>
+                </ul>
+            </div>
+            <div class="xp4 xp">
+                <h3>Freelance Designer 	February 2009 – October 2012</h3>
+                <ul>
+                    <li>Designed Logos, Posters and Flyers on portals like Freelancer.com</li>
+                    <li>Graphic and Web Designer for multiple college events and clubs.</li>
+                </ul>
+            </div>
+            <div class="resume-foot text-center">
+                <p>.....</p>
+            </div>
         </div>
     </section>    
-    <section class="secs skills parallax" id="skills">
+    <section class="secs skills" id="skills">
         <div class="container main">
             <p>I have many web development and design skills</p>
         </div>                    
@@ -59,37 +106,60 @@
         <p>I have many web development and design skills</p>
     </div>                    
     </section>   
-    <section class="secs contact" id="contact">
-        <div class="panel panel-warning">
+    <section class="container secs contact" id="contact">
+        <div class="panel panel-default">
             <div class="panel-heading text-center">
                 <h4>Message me using the below form</h4>
             </div>
             <div class="panel-content">
                 <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Full Name">
-                </div>          
-                <div class="form-group">
-                    <label for="Email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your email ID">
-                </div>
-                <div class="form-group">
-                    <label for="url">URL</label>
-                    <input type="url" class="form-control" id="url" placeholder="Your URL">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea rows="5" class="form-control "id="message" placeholder="Type in your message for me"></textarea>
-                </div>
-                <div class="form-group">
-                            <div class="col-xs-6">
-                                <button type="submit" class="btn btn-block btn-warning">Submit</button>
+                  <div class="row">
+                   <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Full Name">
+                                </div>
                             </div>
-                            <div class="col-xs-6">
+                        </div>        
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <div class="form-group">
+                                    <label for="Email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your email ID">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <div class="form-group">
+                                    <label for="url">URL</label>
+                                    <input type="url" class="form-control" id="url" placeholder="Your URL">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                         <div class="row">
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea rows="9" class="form-control "id="message" placeholder="Type in your message for me"></textarea>
+                            </div>  
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                        <div class="col-lg-3 col-lg-offset-1">
+                            <button type="submit" class="btn btn-block btn-default">Submit</button>
+                        </div>
+                        <div class="col-lg-3 col-lg-offset-3">
                             <button type="reset" class="btn btn-block btn-default">Reset</button>
-                            </div>
-            </form>       
+                        </div>
+                    </div>
+                    </div>
+                </form>       
             </div>
             
         </div>
