@@ -183,3 +183,9 @@ footer{
     min-height: 200px;
     background-color: #222222;
 }
+
+.foot-div{
+    height: 150px;
+    background-color: gray;
+    margin-top: 20px
+}
