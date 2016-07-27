@@ -8,6 +8,10 @@ p{
     font-family: "titillium web",sans-serif;
 }
 
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 
 /*Navbar*/
@@ -74,7 +78,7 @@ p{
 .main{
     justify-content: center;
     align-items: center;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 20px 50px 20px;
     letter-spacing: 1px;
     font-size: 1.4em;
     min-height: 300px;
@@ -151,6 +155,10 @@ p{
     border-radius: 0px;
 }
 
+#contact{
+    padding-bottom: 
+}
+
 form{
     width: 85%;
     font-family: "titillium web", sans-serif;
@@ -158,11 +166,6 @@ form{
     padding-bottom: 20px;
 }
 
-
-.panel{
-    margin-bottom: 40px;
-    margin-top: 60px;
-}
 
 .panel-content{
     display: flex;
@@ -179,13 +182,20 @@ form{
 }
 
 footer{
-    border-top: 15px solid #e0e0e0;
-    min-height: 200px;
-    background-color: #222222;
+    min-height: 100px;
 }
 
-.foot-div{
-    height: 150px;
-    background-color: gray;
-    margin-top: 20px
+.foot-up{
+    background-color: rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
 }
+
+.foot-down{
+    height: 50px;
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
