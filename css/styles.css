@@ -193,7 +193,7 @@ footer{
 
 .foot-down{
     height: 50px;
-    background-color: dimgray;
+    background-color: #333333;
     display: flex;
     align-items: center;
     font-size: 1.3em;
